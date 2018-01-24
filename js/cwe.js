@@ -17,9 +17,10 @@ function CWE_398() { // IDENTICAL_BRANCHES
 }
 
 function CWE_476() { // NULL_POINTER
-    var obj;        
-    var z = obj.y;
-    console.log(z);
+    var obj = {};
+    var y = obj2.y;
+    var z = obj.y; 
+    console.log(z); 
 }
 
 function CWE_480() { // BAD_BITWISE_OPERATOR
