@@ -8,3 +8,13 @@ function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
     }
     
 }
+
+function test(x) {
+ if (x) {
+     return a;
+ } if (!x) {
+     return null;
+ } else {
+     return a;
+ }
+}
