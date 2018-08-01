@@ -18,3 +18,11 @@ function test(x) {
      return a;
  }
 }
+
+function test2(background) {
+    var cssString = "";
+    var backPosition;
+    if (background.length === 3) {
+        cssString += "backgroundPosition: " + backPosition + "px; ";
+    }
+}
